@@ -54,3 +54,10 @@ The result is we're able to type full words without ever leaving the home keys. 
 Print those for training/learning.
 ![Dwev layout dispostion overview alphabetical](./pictures/overview-alpha.png)
 ![Dwev layout dispostion overview numerical](./pictures/overview-num.png)
+
+### Statistics and heatmaps
+I sadly don't have any more statistics on overall finger travel, left-right hand balance and so on. I so happen to loose the whole repo before making it public, and had to rescue what I could from scratch (there used to have a Window version, too).
+
+All I can vouch for is that it performed fairly decently when I was testing with http://patorjk.com/keyboard-layout-analyzer/#/main at the time.
+
+I'll try to rebuild the needed JSON at some point...
