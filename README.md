@@ -56,7 +56,7 @@ Print those for training/learning.
 ![Dwev layout dispostion overview numerical](./pictures/overview-num.png)
 
 ### Statistics and heatmaps
-I sadly don't have any more statistics on overall finger travel, left-right hand balance and so on. I managed to loose the whole repo before making it public, and had to rescue what I could from bits (there used to have a Window version, too).
+I sadly don't have statistics any more on overall finger travel, left-right hand balance and so on. I managed to loose the whole repo before making it public, and had to rescue what I could from bits (there used to have a Window version, too).
 
 All I can vouch for is that it performed fairly decently when I was testing with http://patorjk.com/keyboard-layout-analyzer/#/main at the time.
 
