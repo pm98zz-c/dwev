@@ -8,7 +8,7 @@ It is compact, and mostly uses only the three main rows of the keyboard, avoidin
 
 ### Why?
 As most people spending my days typing for a living, I started to look into alternative keyboard layout after suffering from RSI pains.
-My first attempt was [bepo](https://bepo.fr/wiki/Accueil), the French variant of [dvorak](http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard).
+My first attempt was learning [bepo](https://bepo.fr/wiki/Accueil), the French variant of [dvorak](http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard).
 
 However, I quickly realized that apart from the odd email, 99% of my writing was English/coding, and it wasn't fit for purpose.
 
