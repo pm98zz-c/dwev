@@ -1,12 +1,13 @@
 # The Dwev Keyboard Layout
-## Yet another ergonomic keyboard layout
+**Yet another ergonomic keyboard layout**
+
 Dwev is a keyboard layout that aims to minimize fingers moves, with a focus on limiting lateral moves, as opposed to vertical moves.
 
 It is compact, and mostly uses only the three main rows of the keyboard, avoiding having to stretch your hands to reach the top row.
 
 [[_TOC_]]
 
-### Why?
+## Why?
 As most people spending my days typing for a living, I started to look into alternative keyboard layout after suffering from RSI pains.
 My first attempt was learning [bepo](https://bepo.fr/wiki/Accueil), the French variant of [dvorak](http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard).
 
@@ -21,7 +22,7 @@ That was an eye opener and lead me to analyse more my typing movements. That nag
 - too much effort and stretching put on the right pinky finger
 
 I briefly tried the [workman](https://workmanlayout.org/) layout, but almost immediatly realized it didn't went far enough to my taste in addressing those issues. And here began the journey into trying to create an alternative, and explore some concepts I wasn't familiar with, like frequency of digrams, hand .
-### Overview and key features
+## Overview and key features
 The Dwev layout is primarily aimed at writing in English and programming languages, although you can still write in most Western European languages using dead keys for diacritics and other symbols, which have been moved up the top row.
 
 All letters are concentrated on the "home" keys, with a precedence given on easyness of typing common sequences instead of focusing only on single letters frequency for the home row[^1].
@@ -36,7 +37,7 @@ The result is we're able to type full words without ever leaving the home keys. 
 
 [^2]: You'll notice there's actually an extra dollar `$` right to the "L". While it is accessible through modifiers already, and not strictly needed, I added a direct key due to its prevalence in some programming languages.
 
-### Screenshots
+## Screenshots
 **Level 1**
 ![Dwev layout dispostion level1](./pictures/level1.png)
 **Level 2**
@@ -55,7 +56,7 @@ Print those for training/learning.
 ![Dwev layout dispostion overview alphabetical](./pictures/overview-alpha.png)
 ![Dwev layout dispostion overview numerical](./pictures/overview-num.png)
 
-### Statistics and heatmaps
+## Statistics and heatmaps
 I sadly don't have statistics any more on overall finger travel, left-right hand balance and so on. I managed to loose the whole repo before making it public, and had to rescue what I could from bits (there used to have a Window version, too).
 
 All I can vouch for is that it performed fairly decently when I was testing with http://patorjk.com/keyboard-layout-analyzer/#/main at the time.
