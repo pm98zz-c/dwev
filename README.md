@@ -62,3 +62,74 @@ I sadly don't have statistics any more on overall finger travel, left-right hand
 All I can vouch for is that it performed fairly decently when I was testing with http://patorjk.com/keyboard-layout-analyzer/#/main at the time.
 
 I'll try to rebuild the needed JSON at some point...
+
+## Installation
+### Linux
+#### User installation
+To install for your user only, simply copy the whole "linux/xkb" folder to `$XDG_CONFIG_HOME`. 
+
+In most case, if unset, this would be `$HOME/.config`.
+
+```
+❯ tree .config/xkb
+.config/xkb
+├── rules
+│   ├── evdev.lst
+│   └── evdev.xml
+└── symbols
+    ├── dwev
+    ├── dwew.xkb -> ./dwev
+    └── num
+
+3 directories, 5 files
+```
+
+You will need to logout of your section and login again. 
+
+The layout should then appear as "Dwev" under the "Other" section of your settings. It is referenced as "dwev" by xkeymap, etc.
+
+
+#### System-wide installation (method 1)
+To install for all users, copy (as root) the whole "linux/xkb" folder to `/etc`.
+
+```
+❯ tree /etc/xkb
+/etc/xkb
+├── rules
+│   ├── evdev.lst
+│   └── evdev.xml
+└── symbols
+    ├── dwev
+    ├── dwew.xkb -> ./dwev
+    └── num
+
+3 directories, 5 files
+```
+
+You will need to reboot. 
+
+The layout should then appear as "Dwev" under the "Other" section of your settings.
+It is referenced as "dwev" by xkeymap, etc.
+
+#### System-wide installation (method 2)
+This should let you set the Dwev layout for the whole system, even at the LUKS encryption dialog at boot time.
+
+
+As root, copy the `linux/xkb/symbols/dwev` file and rename it under `/usr/share/X11/xkb/symbols/custom`.
+
+You will need to reboot. 
+
+The layout should then appear as "A user defined custom Layout" under the "Other" section of your settings. It is referenced as "custom" by xkeymap, etc.
+
+NOTE: You can only have one "custom" layout installed using this technique.
+
+## Mac OS
+### User installation
+To install for your user only, simply copy `mac/Dwev.bundle` to `~/Library/Keyboard Layouts`.
+
+After a reboot, it should appear under "System Preferences > Keyboard > Input Sources"
+
+### System-wide installation
+To install for all users, simply copy `mac/Dwev.bundle` to `/Library/Keyboard Layouts`.
+
+After a reboot, it should appear under "System Preferences > Keyboard > Input Sources"
