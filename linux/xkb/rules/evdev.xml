@@ -9,5 +9,12 @@
         <description>Dwev</description>
       </configItem>
     </layout>
+    <layout>
+      <configItem>
+        <name>dwev-num</name>
+        <shortDescription>dwev-num</shortDescription>
+        <description>Dwev (Numeric)</description>
+      </configItem>
+    </layout>
   </layoutList>
 </xkbConfigRegistry>

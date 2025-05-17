@@ -57,7 +57,7 @@ xkb_symbols "dwev" {
     key <AE08> {[       dead_diaeresis,           dead_hook,               U00F0,               U00D0,               U0028,               U0028           ]};
     key <AE09> {[           dead_acute,    dead_doubleacute,               U014B,               U014A,               U0029,               U0029           ]};
     key <AE10> {[           dead_grave,         dead_ogonek,               U0133,               U0132,            NoSymbol,            NoSymbol           ]};
-    key <AE11> {[      dead_circumflex,         dead_macron,               space,               space,            NoSymbol,            NoSymbol           ]};
+    key <AE11> {[      dead_circumflex,         dead_macron,            NoSymbol,               NoSymbol,         NoSymbol,            NoSymbol           ]};
     key <AE12> {[             NoSymbol,            NoSymbol,            NoSymbol,            NoSymbol,            NoSymbol,            NoSymbol           ]};
     key <BKSL> {[             NoSymbol,            NoSymbol,            NoSymbol,            NoSymbol,            NoSymbol,            NoSymbol           ]};
     key <BKSP> {[            BackSpace,           BackSpace,           BackSpace,           BackSpace,           BackSpace,           BackSpace           ]};

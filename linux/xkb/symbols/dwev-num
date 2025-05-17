@@ -1,0 +1,69 @@
+
+/////////////////////////////// dwev-num START
+//
+// Dwev layout (numeric).
+//
+// Author: Pascal Morin <hello@dwev.xyz>
+// Source: https://gitlab.com/pm98zz-c/dwev
+// License: GPL-3.0
+//
+///////////////////////////////
+partial alphanumeric_keys 
+xkb_symbols "dwev-num" {
+    name[Group1] = "English (dwev numeric)";
+
+    key <AB01> {[                    j,                   J,               U0023,            NoSymbol           ]};
+    key <AB02> {[                    z,                   Z,               U0026,            NoSymbol           ]};
+    key <AB03> {[                    x,                   X,               U003D,            NoSymbol           ]};
+    key <AB04> {[                    k,                   K,               U002A,            NoSymbol           ]};
+    key <AB05> {[                U002D,               U005F,               U2010,               U2013           ]};
+    key <AB06> {[                    b,                   B,            NoSymbol,            NoSymbol           ]};
+    key <AB07> {[                    m,                   M,               U007E,            NoSymbol           ]};
+    key <AB08> {[                    w,                   W,               U007C,            NoSymbol           ]};
+    key <AB09> {[                    v,                   V,               U0025,            NoSymbol           ]};
+    key <AB10> {[                    f,                   F,               U00A2,            NoSymbol           ]};
+    key <AC01> {[                    a,                   A,               U005B,               U00AA           ]};
+    key <AC02> {[                    s,                   S,               U005D,               U00A4           ]};
+    key <AC03> {[                    e,                   E,               U002F,               U20AC           ]};
+    key <AC04> {[                    u,                   U,               U005C,               U03BC           ]};
+    key <AC05> {[                comma,               U003C,               U00AB,            NoSymbol           ]};
+    key <AC06> {[                U002E,               U003E,               U00BB,            NoSymbol           ]};
+    key <AC07> {[                    o,                   O,               U0027,               U00BA           ]};
+    key <AC08> {[                    t,                   T,               U0022,               U00A9           ]};
+    key <AC09> {[                    h,                   H,               U0060,               U00AE           ]};
+    key <AC10> {[                    n,                   N,               U00B4,               U2122           ]};
+    key <AC11> {[                    q,                   Q,            NoSymbol,            NoSymbol           ]};
+    key <AD01> {[                    i,                   I,               U0028,            NoSymbol           ]};
+    key <AD02> {[                    d,                   D,               U0029,               U0024           ]};
+    key <AD03> {[                    y,                   Y,               U007B,               U00A5           ]};
+    key <AD04> {[                    p,                   P,               U007D,               U00A3           ]};
+    key <AD05> {[                U003B,               U003A,               U00B0,            NoSymbol           ]};
+    key <AD06> {[                U002B,               U0040,            NoSymbol,            NoSymbol           ]};
+    key <AD07> {[                    g,                   G,               U005E,               U00BD           ]};
+    key <AD08> {[                    c,                   C,               U003F,               U00BF           ]};
+    key <AD09> {[                    r,                   R,               U0021,               U00A1           ]};
+    key <AD10> {[                    l,                   L,            NoSymbol,            NoSymbol           ]};
+    key <AD11> {[                U0024,            NoSymbol,            NoSymbol,            NoSymbol           ]};
+    key <AD11> {[                U0024,            NoSymbol,            NoSymbol,            NoSymbol           ]};
+    key <AD12> {[             NoSymbol,            NoSymbol,            NoSymbol,            NoSymbol           ]};
+    key <AE01> {[                    1,                   1,            NoSymbol,            NoSymbol           ]};
+    key <AE02> {[                    2,                   2,            NoSymbol,            NoSymbol           ]};
+    key <AE03> {[                    3,                   3,            NoSymbol,            NoSymbol           ]};
+    key <AE04> {[                    4,                   4,            NoSymbol,            NoSymbol           ]};
+    key <AE05> {[                    5,                   5,            NoSymbol,            NoSymbol           ]};
+    key <AE06> {[                    6,                   6,            NoSymbol,            NoSymbol           ]};
+    key <AE07> {[                    7,                   7,            NoSymbol,            NoSymbol           ]};
+    key <AE08> {[                    8,                   8,            NoSymbol,            NoSymbol           ]};
+    key <AE09> {[                    9,                   9,            NoSymbol,            NoSymbol           ]};
+    key <AE10> {[                    0,                   0,            NoSymbol,            NoSymbol           ]};
+    key <AE11> {[             NoSymbol,            NoSymbol,            NoSymbol,            NoSymbol           ]};
+    key <AE12> {[             NoSymbol,            NoSymbol,            NoSymbol,            NoSymbol           ]};
+    key <BKSL> {[             NoSymbol,            NoSymbol,            NoSymbol,            NoSymbol           ]};
+    key <BKSP> {[            BackSpace,           BackSpace,           BackSpace,           BackSpace           ]};
+    key <SPCE> {[                space,               space,               space,               space           ]};
+    
+    include "level3(ralt_switch)"
+
+};
+/////////////////////////////// dwev-num END
+
